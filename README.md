@@ -1,6 +1,7 @@
 # Vectorstat Karate
 
-Karate is the only open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework. [Karate Labs](https://www.karatelabs.io/company) and
+Karate is the only open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.\
+You can find more information about this tool in: [Karate Labs](https://www.karatelabs.io/company) and
 [Karate Official Repository](https://github.com/karatelabs/karate).
 
 To run Karate we need to have installed Java and Maven.
@@ -19,15 +20,15 @@ $mvn --version
 Apache Maven 3.6.3
 
 ```
-## Create New Project vectorstat-karate
+## Create New Project PROJECT-NAME
 
 ```bash
  mvn archetype:generate \
 -DarchetypeGroupId=com.intuit.karate \
 -DarchetypeArtifactId=karate-archetype \
 -DarchetypeVersion=1.4.1 \
--DgroupId=datyra \
--DartifactId=vectorstat-karate
+-DgroupId=GROUP-ID \
+-DartifactId=PROJECT-NAME
 ```
 
 Structure of the created project.
@@ -127,5 +128,5 @@ A new folder will be generated with the name **target**
 You need to open the next path to see the report from a web browser.
 
 ```
-vectorstat-karate/target/karate-reports/karate-summary.html
+PROJECT-NAME/target/karate-reports/karate-summary.html
 ```
